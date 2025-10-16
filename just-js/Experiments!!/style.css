@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #quiz, #results {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #extrovertQuestions, #introvertQuestions {
+    display: none; /* Initially hidden */
+  }

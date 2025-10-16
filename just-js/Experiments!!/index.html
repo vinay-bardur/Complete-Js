@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Career AI</h1>
+  <div id="quiz">
+    <h2>Personality Quiz</h2>
+    <p>How would you describe yourself?</p>
+    <button id="extrovertBtn">Extroverted</button>
+    <button id="introvertBtn">Introverted</button>
+    <div id="extrovertQuestions" style="display: none;">
+      <p>Do you enjoy working in teams?</p>
+      <select id="teamwork">
+        <option value="">Select...</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <p>How would you describe your energy levels when working with a team?</p>
+      <select id="teamEnergy">
+        <option value="">Select...</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+    </div>
+    <div id="introvertQuestions" style="display: none;">
+      <p>Do you prefer working independently or in a team?</p>
+      <select id="independent">
+        <option value="">Select...</option>
+        <option value="independent">Independent</option>
+        <option value="team">Team</option>
+      </select>
+      <p>How do you handle tasks that require a lot of social interaction?</p>
+      <select id="socialInteraction">
+        <option value="">Select...</option>
+        <option value="comfortable">Comfortable</option>
+        <option value="challenging">Challenging</option>
+      </select>
+    </div>
+    <button id="submitBtn">Submit</button>
+  </div>
+  <div id="results">
+    <h2>Your Career Suggestions</h2>
+    <ul id="suggestionsList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

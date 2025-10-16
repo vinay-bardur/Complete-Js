@@ -1,0 +1,32 @@
+ /* .Boxe{
+    height: 125px;
+    width: 125px;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 125px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: white;
+    background-color: dodgerblue;
+}   */
+
+/* div {
+    margin: 25px;
+    height: 125px;
+    width: 125px;
+    background-color: bisque;
+    text-align: center;
+     border: 3px solid rgb(0, 0, 0);
+} */
+
+
+.dark {
+    background-color: black;
+    color: white;
+
+}
+.Light {
+    background-color: whitesmoke;
+    color: black;
+}
